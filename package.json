@@ -1,0 +1,23 @@
+{
+  "name": "nodehomework3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahph/nodeHomework3.git"
+  },
+  "author": "hmp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hannahph/nodeHomework3/issues"
+  },
+  "homepage": "https://github.com/hannahph/nodeHomework3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

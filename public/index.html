@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+#signin {
+  position: relative;
+  left: 30px;
+}
+#username {
+  position: relative;
+  left: 30px;
+}
+#password {
+  position: relative;
+  left: 30px;
+}
+#button {
+  position: relative;
+  left: 30px;
+}
+
+</style>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Modern Business - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <script src="frontend.js"></script>    
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Homework 3</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="404.html">404</a>
+              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <h5 id = "signin">Please sign in below</h5>
+  <input type="text" name="username" id="username" placeholder = "enter username"></input>
+  <div id = 'pwd'>
+      <input type="password" name="password" id="password" placeholder = "enter password"></input>
+  </div>
+  <br>
+  <input type="checkbox" onclick="showPwd()" id="pwd_checkbox">Show Password</input>
+  <br>
+  <br>
+  <button onclick="checkPassword()" id = "button">Login</button>
+  <div id='user'></div>
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
